@@ -3,7 +3,7 @@ import 'package:inkam_app/constants/global_variables.dart';
 
 class CategoriesTab extends StatefulWidget {
   static const String id = '/categories';
-  CategoriesTab({Key? key}) : super(key: key);
+  const CategoriesTab({Key? key}) : super(key: key);
 
   @override
   State<CategoriesTab> createState() => _CategoriesTabState();
@@ -22,15 +22,15 @@ class _CategoriesTabState extends State<CategoriesTab> {
     'Jobs'
   ];
   List colorss = [
-    Color(0xffD9F1EB),
-    Color(0xffD9E7F3),
-    Color(0xffFFE1BF),
-    Color(0xffF4DDDD),
-    Color(0xffFDF2C8),
-    Color(0xffEADFFF),
-    Color(0xffD9F1EB),
-    Color(0xffD9E7F3),
-    Color(0xffFFE1BF),
+    const Color(0xffD9F1EB),
+    const Color(0xffD9E7F3),
+    const Color(0xffFFE1BF),
+    const Color(0xffF4DDDD),
+    const Color(0xffFDF2C8),
+    const Color(0xffEADFFF),
+    const Color(0xffD9F1EB),
+    const Color(0xffD9E7F3),
+    const Color(0xffFFE1BF),
   ];
   // Map<String, dynamic> categories = {
   //   'Academic Courses': {'colors': Color(0xffD9F1EB)},

@@ -6,6 +6,7 @@ import 'package:inkam_app/features/home/widgets/overview.dart';
 import 'package:inkam_app/features/leaderboard/screens/leaderboaed_screen.dart';
 
 class HomeScreen extends StatefulWidget {
+  static const String id = '/HomeScreen';
   const HomeScreen({super.key});
 
   @override
